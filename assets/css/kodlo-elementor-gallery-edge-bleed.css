@@ -1,0 +1,37 @@
+/* Styles mobile swipe edge bleed for Kodlo Product Gallery for Elementor. */
+
+/* CSS variables — set on the wrapper when feature is enabled. */
+.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] {
+	--kodlo-mobile-side-gutter-negative: -30px;
+	--kodlo-edge-bleed-reveal-duration: 200ms;
+	--kodlo-edge-bleed-hide-duration: 200ms;
+}
+
+/*
+ * Idle: clip each slider to its own bounds (= content column width).
+ * Adjacent Swiper slides overflow via overflow:visible but remain hidden at rest.
+ */
+.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-mobile-slider,
+.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-thumbs-slider {
+	overflow: visible;
+	clip-path: inset(0 0);
+	-webkit-clip-path: inset(0 0);
+	transition:
+		clip-path var(--kodlo-edge-bleed-hide-duration) ease-out,
+		-webkit-clip-path var(--kodlo-edge-bleed-hide-duration) ease-out;
+}
+
+/* Active: negative inset extends the clip region into the gutter, revealing adjacent slide overflow. */
+.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-mobile-slider.kodlo-edge-bleed-active,
+.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-thumbs-slider.kodlo-edge-bleed-active {
+	clip-path: inset(0 var(--kodlo-mobile-side-gutter-negative));
+	-webkit-clip-path: inset(0 var(--kodlo-mobile-side-gutter-negative));
+	transition-duration: var(--kodlo-edge-bleed-reveal-duration);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-mobile-slider,
+	.kodlo-gallery-wrapper[data-mobile-edge-bleed="yes"] .kodlo-thumbs-slider {
+		transition-duration: 0ms;
+	}
+}

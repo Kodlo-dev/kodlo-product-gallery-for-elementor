@@ -1,0 +1,177 @@
+/*
+ * Variation gallery admin styles for Kodlo Product Gallery for Elementor.
+ * Styles the WooCommerce variation image selector, sorting, removal, and focus states.
+ */
+ 
+/* Variation gallery container and image list. */
+.kodlo-variation-gallery {
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+	clear: both;
+}
+
+.kodlo-variation-gallery h4 {
+	margin: 0 0 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.kodlo-variation-gallery-items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+	min-height: 50px;
+}
+
+/* Sortable image cards and removal controls. */
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #f9f9f9;
+	padding: 2px;
+	cursor: move;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	border-radius: 2px;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	color: #999;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	cursor: pointer;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	border: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image:hover .kodlo-variation-gallery-remove,
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image:focus-within .kodlo-variation-gallery-remove {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove:hover,
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove:focus-visible {
+	color: #b32d2e;
+	background: #fff;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Manual image ordering controls. */
+.kodlo-variation-gallery-order-controls {
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	pointer-events: none;
+}
+
+.kodlo-variation-gallery-order-controls button {
+	display: inline-flex;
+	width: 20px;
+	height: 20px;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	border: 0;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.kodlo-variation-gallery-order-controls button:hover,
+.kodlo-variation-gallery-order-controls button:focus-visible {
+	background: #000;
+}
+
+.kodlo-variation-gallery-order-controls .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Video thumbnail overlay and indicator. */
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image.kodlo-has-video::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	z-index: 2;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	z-index: 3;
+}
+
+.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-video .dashicons {
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+}
+
+/* Variation gallery action buttons. */
+.kodlo-variation-gallery > p > button {
+	margin-right: 5px !important;
+}
+
+@media (hover: none) {
+	.kodlo-variation-gallery-items .kodlo-variation-gallery-image .kodlo-variation-gallery-remove {
+		opacity: 1;
+		pointer-events: auto;
+	}
+}

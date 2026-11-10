@@ -1,0 +1,42 @@
+/*
+ * Styles attachment Video URL fields for Kodlo Product Gallery for Elementor.
+ * Hides original compatibility rows and styles inline custom Video URL fields.
+ */
+
+/* Compatibility field visibility. */
+.compat-field-kodlo_gallery_video_url.kodlo-video-url-original-hidden {
+	display: none !important;
+}
+
+/* Media modal video URL field. */
+.attachment-details .setting.attachment-video-url {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.attachment-details .setting.attachment-video-url label.name {
+	min-width: 30%;
+	margin-right: 4%;
+}
+
+.attachment-details .kodlo-gallery-video-url-description {
+	margin: -6px 0 12px 35%;
+}
+
+/* Attachment edit-page video URL field. */
+.wp_attachment_details .attachment-video-url-edit-page {
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+
+.wp_attachment_details .attachment-video-url-edit-page label {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.wp_attachment_details .attachment-video-url-description {
+	margin-top: 2px !important;
+	margin-bottom: 18px !important;
+	font-size: 12px;
+	color: #666;
+}

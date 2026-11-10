@@ -1,0 +1,132 @@
+/* Styles magnifier interactions for Kodlo Product Gallery for Elementor. */
+
+/*
+ * Effect activation. Lens size, zoom and border values come per device from the widget's breakpoint styles
+ * (--kodlo-magnifier-size, --kodlo-magnifier-zoom and --kodlo-lens-border-* on each media item).
+ */
+.kodlo-gallery-wrapper[data-desktop-image-effect="magnifier"] .kodlo-gallery-main-wrapper .kodlo-media-item:not(.has-video) {
+	cursor: crosshair;
+}
+
+/* First-only mode must not advertise magnification on other desktop photos. */
+.kodlo-gallery-wrapper[data-desktop-image-effect="magnifier"][data-desktop-magnifier-scope="first"] .kodlo-gallery-main-wrapper .kodlo-media-item:not(.kodlo-magnifier-active):not(.kodlo-magnifier-loading) {
+	cursor: auto;
+}
+
+/* Magnifier lens geometry and zoomed image layer. */
+.kodlo-magnifier-lens {
+	position: absolute;
+	z-index: 24;
+	overflow: hidden;
+	pointer-events: none;
+	background: #fff;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+	box-sizing: border-box;
+}
+
+.kodlo-gallery-wrapper .kodlo-magnifier-lens {
+	width: var(--kodlo-magnifier-size, 160px);
+	height: var(--kodlo-magnifier-size, 160px);
+	border-style: var(--kodlo-lens-border-style, solid);
+	border-width: var(--kodlo-lens-border-width, 2px);
+	border-color: var(--kodlo-lens-border-color, #fff);
+	border-radius: var(--kodlo-lens-border-radius, 50%);
+}
+
+.kodlo-magnifier-lens-image {
+	position: absolute;
+	display: block;
+	max-width: none !important;
+	max-height: none !important;
+	margin: 0 !important;
+	pointer-events: none;
+	user-select: none;
+}
+
+/* Mobile toggle button and interactive states. */
+.kodlo-magnifier-toggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 23;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	min-width: 44px;
+	min-height: 44px;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	border-radius: 0 0 0 20px;
+	background: rgba(0, 0, 0, 0.58);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
+	line-height: 1;
+	transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.kodlo-magnifier-toggle:hover,
+.kodlo-magnifier-toggle:focus-visible,
+.kodlo-magnifier-toggle[aria-pressed="true"] {
+	background: rgba(0, 0, 0, 0.82);
+}
+
+.kodlo-magnifier-toggle:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
+
+.kodlo-magnifier-toggle-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kodlo-magnifier-toggle-icon-active,
+.kodlo-magnifier-toggle[aria-pressed="true"] .kodlo-magnifier-toggle-icon-inactive {
+	display: none;
+}
+
+.kodlo-magnifier-toggle[aria-pressed="true"] .kodlo-magnifier-toggle-icon-active {
+	display: inline-flex;
+}
+
+.kodlo-magnifier-toggle svg,
+.kodlo-magnifier-toggle i {
+	width: 18px;
+	height: 18px;
+	color: inherit;
+	font-size: 18px;
+	pointer-events: none;
+}
+
+.kodlo-magnifier-toggle svg {
+	fill: currentColor;
+}
+
+.kodlo-magnifier-toggle .kodlo-magnifier-default-icon {
+	fill: none;
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+}
+
+/* Active, loading, and reduced-motion states. */
+.kodlo-media-item.kodlo-magnifier-active {
+	touch-action: none;
+}
+
+.kodlo-media-item.kodlo-magnifier-loading .kodlo-magnifier-toggle {
+	cursor: progress;
+	opacity: 0.75;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.kodlo-magnifier-toggle {
+		transition: none !important;
+	}
+}

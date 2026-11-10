@@ -1,0 +1,1130 @@
+# Copyright (C) 2026 Kodlo
+# This file is distributed under the same license as the Kodlo Product Gallery for Elementor plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodlo Product Gallery for Elementor 2.9.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 14:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-07-18 11:10+0000\n"
+"Last-Translator: Kodlo\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Kodlo internal translation tools\n"
+
+#: includes/kodlo-elementor-gallery-widget-controls.php:25
+msgid "%1$s (%2$d px)"
+msgstr "%1$s (%2$d px)"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:368
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:148
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:239
+msgid "Active Button Icon"
+msgstr "Symbol der aktiven Schaltfläche"
+
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:109
+msgid "Add Gallery Images"
+msgstr "Galeriebilder hinzufügen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:28
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:77
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:115
+msgid "All images"
+msgstr "Alle Bilder"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:41
+msgid "Are you sure you want to remove all variation gallery images?"
+msgstr "Sind Sie sicher, dass Sie alle Bilder der Variationsgalerie entfernen möchten?"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:24
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:196
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:25
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:28
+msgid "Aspect Ratio"
+msgstr "Seitenverhältnis"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:26
+msgid "Attachment Caption"
+msgstr "Anhangs-Beschriftung"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:36
+msgid "Attachment Page"
+msgstr "Anhangs-Seite"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:45
+msgid "Autoplay Videos"
+msgstr "Videos automatisch abspielen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:84
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:158
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:91
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:152
+msgid "Background"
+msgstr "Hintergrund"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:57
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:213
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:285
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:352
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:400
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:172
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:244
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:280
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:246
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:317
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:72
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:116
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:166
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:309
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:359
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:408
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:138
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:199
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:81
+msgid "Border Hover Color"
+msgstr "Rahmenfarbe bei Hover"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:76
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:253
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:324
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:317
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:124
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:247
+msgid "Border Radius"
+msgstr "Abrundung"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:220
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:257
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:221
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:292
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:44
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:92
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:280
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:334
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:383
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:108
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:169
+msgid "Border Style"
+msgstr "Rahmenstil"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:234
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:271
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:236
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:307
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:60
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:106
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:297
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:349
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:398
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:122
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:183
+msgid "Border Width"
+msgstr "Rahmenbreite"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:52
+msgid "Both"
+msgstr "Beide"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:147
+msgid "Bottom Center"
+msgstr "Unten Mitte"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:146
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:264
+msgid "Bottom Left"
+msgstr "Unten Links"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:148
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:265
+msgid "Bottom Right"
+msgstr "Unten Rechts"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:25
+msgid "Breakpoint"
+msgstr "Breakpoint"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:226
+msgid "Button"
+msgstr "Schaltfläche"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:231
+msgid "Button Icon"
+msgstr "Schaltflächensymbol"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:259
+msgid "Button Position"
+msgstr "Schaltflächenposition"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:21
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:22
+msgid "Caption"
+msgstr "Beschriftung"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:36
+msgid "Center"
+msgstr "Zentriert"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:144
+msgid "Center Center"
+msgstr "Mitte Mitte"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:143
+msgid "Center Left"
+msgstr "Mitte Links"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:145
+msgid "Center Right"
+msgstr "Mitte Rechts"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:272
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:326
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:375
+msgid "Color"
+msgstr "Farbe"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:28
+msgid "Columns"
+msgstr "Spalten"
+
+#: includes/kodlo-elementor-gallery-widget-controls.php:35
+msgid "Contain"
+msgstr "Einpassen"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:166
+msgid "Content Edge"
+msgstr "Inhaltsrand"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:143
+msgid "Controls how quickly side images appear when swiping starts."
+msgstr "Steuert, wie schnell seitliche Bilder beim Starten des Wischens erscheinen."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:158
+msgid "Controls how quickly side images disappear when swiping ends."
+msgstr "Steuert, wie schnell seitliche Bilder nach dem Wischen verschwinden."
+
+#: includes/kodlo-elementor-gallery-widget-controls.php:34
+msgid "Cover"
+msgstr "Abdecken"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:149
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:126
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:264
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:228
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:299
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:173
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:97
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:287
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:341
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:390
+msgid "Dashed"
+msgstr "Gestrichelt"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:46
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:58
+msgid "Default"
+msgstr "Standard"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:248
+msgid "Defer Off-Screen Images"
+msgstr "Bilder außerhalb des sichtbaren Bereichs verzögert laden"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:124
+msgid "Delete safely migrated legacy data"
+msgstr "Sicher migrierte Altdaten löschen"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:117
+msgid "Deleting legacy metadata cannot be undone. Create a database backup before continuing."
+msgstr "Das Löschen der alten Metadaten kann nicht rückgängig gemacht werden. Erstellen Sie vor dem Fortfahren eine Datenbanksicherung."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:50
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:211
+msgid "Desktop Priority Images"
+msgstr "Desktop-Prioritätsbilder"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:9
+msgid "Desktop view settings"
+msgstr "Desktop-Ansicht-Einstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:9
+msgid "Desktop view style"
+msgstr "Desktop-Ansichtsstil"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:27
+msgid "Disable image magnifier"
+msgstr "Bildlupe deaktivieren"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:102
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:54
+msgid "Do not reload, close, or leave this page until the process is complete."
+msgstr "Laden, schließen oder verlassen Sie diese Seite nicht, bis der Vorgang abgeschlossen ist."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:223
+msgid "Dot Size"
+msgstr "Punktgröße"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:235
+msgid "Dot Spacing"
+msgstr "Punktabstand"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:185
+msgid "Dots Position"
+msgstr "Punktposition"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:213
+msgid "Dots Spacing Bottom / Offset"
+msgstr "Punktabstand unten / Versatz"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:203
+msgid "Dots Spacing Top"
+msgstr "Punktabstand oben"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:127
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:263
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:227
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:298
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:174
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:98
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:286
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:340
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:389
+msgid "Dotted"
+msgstr "Gepunktet"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:262
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:226
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:297
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:285
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:339
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:388
+msgid "Double"
+msgstr "Doppelt"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:42
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:112
+msgid "Edit Gallery"
+msgstr "Galerie bearbeiten"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:14
+msgid "Enable Desktop View"
+msgstr "Desktop-Ansicht aktivieren"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:14
+msgid "Enable Mobile View"
+msgstr "Mobilansicht aktivieren"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:26
+msgid "Enable image magnifier"
+msgstr "Bildlupe aktivieren"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:43
+msgid "Enable infinite looping for the mobile main slider."
+msgstr "Endlosschleife für den mobilen Haupt-Slider aktivieren."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:40
+msgid "End"
+msgstr "Ende"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:74
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: includes/kodlo-elementor-gallery-widget-controls.php:36
+msgid "Fill"
+msgstr "Füllen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:78
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:116
+msgid "First image only"
+msgstr "Nur das erste Bild"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:15
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:101
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:40
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:47
+msgid "Gallery image %d"
+msgstr "Galeriebild %d"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:43
+msgid "Gap Between Items"
+msgstr "Abstand zwischen Elementen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:38
+msgid "Gap Between Thumbnails"
+msgstr "Abstand zwischen Thumbnails"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:9
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:10
+msgid "General style"
+msgstr "Allgemeiner Stil"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:208
+msgid "Grid Items Border"
+msgstr "Rahmen der Gitterelemente"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:67
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:77
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:87
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:18
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:40
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:65
+#: includes/elementor/controls/content/kodlo-elementor-gallery-thumbnails-settings.php:18
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:17
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:26
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:147
+msgid "Hide Duration"
+msgstr "Ausblenddauer"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:440
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:499
+msgid "Horizontal Offset"
+msgstr "Horizontaler Versatz"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:253
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:273
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:382
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:143
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:318
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:102
+msgid "Hover"
+msgstr "Hover"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:117
+msgid "Hover Animation"
+msgstr "Hover-Animation"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:342
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:390
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:74
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:148
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:89
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:106
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:162
+msgid "Icon Color"
+msgstr "Symbolfarbe"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:32
+msgid "Icon Position"
+msgstr "Symbolposition"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:247
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:38
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:21
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:150
+msgid "Icon Size"
+msgstr "Symbolgröße"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:34
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:35
+msgid "Image Background"
+msgstr "Bildhintergrund"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:54
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:90
+msgid "Image Border Radius"
+msgstr "Bildrahmen-Radius"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:63
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:99
+msgid "Image Effect"
+msgstr "Bildeffekt"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:201
+msgid "Image Loading Optimization"
+msgstr "Bildladungsoptimierung"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:40
+msgid "Image layout"
+msgstr "Bild-Layout"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:87
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:37
+msgid "Infinite Loop"
+msgstr "Endlosschleife"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:189
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:430
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:486
+msgid "Inside"
+msgstr "Innen"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:123
+msgid "Keep legacy data"
+msgstr "Altdaten behalten"
+
+#: includes/class-kodlo-elementor-gallery-widget.php:27
+msgid "Kodlo Product Gallery"
+msgstr "Kodlo Produktgalerie"
+
+#: includes/class-kodlo-elementor-gallery-widget.php:284
+msgid "Kodlo Product Gallery could not be displayed, so the WooCommerce product images are shown. Details are in WooCommerce > Status > Logs."
+msgstr "Kodlo Product Gallery konnte nicht angezeigt werden, daher werden die WooCommerce-Produktbilder gezeigt. Details unter WooCommerce > Status > Protokolle."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:87
+msgid "Kodlo Product Gallery for Elementor requires Elementor %1$s or newer. Detected version: %2$s."
+msgstr "Kodlo Product Gallery for Elementor erfordert Elementor %1$s oder neuer. Erkannte Version: %2$s."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:83
+msgid "Kodlo Product Gallery for Elementor requires Elementor to be active."
+msgstr "Kodlo Product Gallery for Elementor erfordert ein aktives Elementor."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:56
+msgid "Kodlo Product Gallery for Elementor requires PHP %1$s or newer. Detected version: %2$s."
+msgstr "Kodlo Product Gallery for Elementor erfordert PHP %1$s oder neuer. Erkannte Version: %2$s."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:76
+msgid "Kodlo Product Gallery for Elementor requires WooCommerce %1$s or newer. Detected version: %2$s."
+msgstr "Kodlo Product Gallery for Elementor erfordert WooCommerce %1$s oder neuer. Erkannte Version: %2$s."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:72
+msgid "Kodlo Product Gallery for Elementor requires WooCommerce to be active."
+msgstr "Kodlo Product Gallery for Elementor erfordert ein aktives WooCommerce."
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:65
+msgid "Kodlo Product Gallery for Elementor requires WordPress %1$s or newer. Detected version: %2$s."
+msgstr "Kodlo Product Gallery for Elementor erfordert WordPress %1$s oder neuer. Erkannte Version: %2$s."
+
+#: includes/admin/kodlo-elementor-gallery-meta-write-notice.php:58
+msgid "Kodlo could not save one gallery media change. Reopen the affected item and save it again."
+msgstr "Kodlo konnte eine Änderung an den Galeriemedien nicht speichern. Öffnen Sie das betroffene Element erneut und speichern Sie es noch einmal."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:87
+msgid "Kodlo found legacy WooGallery data in the WordPress post metadata table."
+msgstr "Kodlo hat alte WooGallery-Daten in der WordPress-Tabelle für Beitragsmetadaten gefunden."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:47
+msgid "Kodlo is migrating legacy WooGallery data."
+msgstr "Kodlo migriert veraltete WooGallery-Daten."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:46
+msgid "Kodlo is removing safely migrated legacy data."
+msgstr "Kodlo entfernt sicher migrierte Altdaten."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:185
+msgid "Left"
+msgstr "Links"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:74
+msgid "Left Offset"
+msgstr "Versatz links"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:202
+msgid "Legacy-data cleanup is complete."
+msgstr "Die Bereinigung der Altdaten ist abgeschlossen."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:49
+msgid "Legacy-data cleanup progress"
+msgstr "Fortschritt der Altdatenbereinigung"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:50
+msgid "Legacy-data migration progress"
+msgstr "Fortschritt der Altdatenmigration"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:139
+msgid "Lens"
+msgstr "Linse"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:149
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:196
+msgid "Lens Border Color"
+msgstr "Linsenrahmenfarbe"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:159
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:206
+msgid "Lens Border Radius"
+msgstr "Linsenrahmen-Radius"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:121
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:168
+msgid "Lens Border Style"
+msgstr "Linsenstil"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:137
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:184
+msgid "Lens Border Width"
+msgstr "Linsenrahmenbreite"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:109
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:156
+msgid "Lens Size"
+msgstr "Linsengröße"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:112
+msgid "Lets slides move through the side gutter and clip at the screen edge while swiping."
+msgstr "Ermöglicht, dass Slides beim Wischen durch den seitlichen Abstand bis zum Bildschirmrand bewegt und dort abgeschnitten werden."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:42
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:33
+msgid "Limits the visible pagination window as the active slide changes."
+msgstr "Begrenzt das sichtbare Navigationsfenster beim Wechsel des aktiven Slides."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:31
+msgid "Link"
+msgstr "Link"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:71
+msgid "Loop Videos"
+msgstr "Videos in Schleife abspielen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:68
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:104
+msgid "Magnifier"
+msgstr "Lupe"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:74
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:112
+msgid "Magnifier images"
+msgstr "Bilder mit Lupe"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:37
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:420
+msgid "Main Slider Arrows"
+msgstr "Hauptslider-Pfeile"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:127
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:299
+msgid "Margin"
+msgstr "Außenabstand"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:128
+msgid "Match this value to the mobile horizontal padding around the gallery."
+msgstr "Stimmen Sie diesen Wert mit dem horizontalen mobilen Innenabstand um die Galerie ab."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:61
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:49
+msgid "Max images display"
+msgstr "Maximale Bildanzeige"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:25
+msgid "Maximum Visible Dots"
+msgstr "Maximale sichtbare Punkte"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:35
+msgid "Media File"
+msgstr "Mediendatei"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:101
+msgid "Migrate legacy data"
+msgstr "Altdaten migrieren"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:200
+msgid "Migration is complete. Loading the legacy-data decision now."
+msgstr "Die Migration ist abgeschlossen. Die Auswahl für die Altdaten wird jetzt geladen."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:51
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:117
+msgid "Mobile Side Gutter"
+msgstr "Mobiler Seitenabstand"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:223
+msgid "Mobile Slider Priority Images"
+msgstr "Mobile Slider-Prioritätsbilder"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:235
+msgid "Mobile Thumbnails Priority Images"
+msgstr "Mobile Thumbnail-Prioritätsbilder"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:9
+msgid "Mobile view settings"
+msgstr "Mobilansicht-Einstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:9
+msgid "Mobile view style"
+msgstr "Mobilansicht-Stil"
+
+#: includes/admin/kodlo-elementor-gallery-plugin-row.php:34
+msgid "More information about Kodlo Product Gallery for Elementor"
+msgstr "Weitere Informationen über Kodlo Product Gallery für Elementor"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:37
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:85
+msgid "Move image backward"
+msgstr "Bild nach hinten verschieben"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:38
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:90
+msgid "Move image forward"
+msgstr "Bild nach vorne verschieben"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:58
+msgid "Mute Videos"
+msgstr "Videos stummschalten"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:163
+msgid "Navigation Arrows Edge"
+msgstr "Rand der Navigationspfeile"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:9
+msgid "Navigation settings"
+msgstr "Navigationseinstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:9
+msgid "Navigation style"
+msgstr "Navigationsstil"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:100
+#: includes/kodlo-elementor-gallery-widget-template.php:138
+#: includes/kodlo-elementor-gallery-widget-template.php:208
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:55
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:80
+msgid "Next Icon"
+msgstr "Nächstes Symbol"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:17
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:48
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:107
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:204
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:252
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:17
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:40
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:49
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:61
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:74
+msgid "No"
+msgstr "Nein"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:48
+msgid "No Stretch"
+msgstr "Keine Streckung"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:25
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:37
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:66
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:124
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:260
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:224
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:295
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:102
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:171
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:95
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:283
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:337
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:386
+msgid "None"
+msgstr "Keine"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:216
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:200
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:335
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:69
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:267
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:85
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:14
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:184
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:15
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:18
+msgid "Object fit"
+msgstr "Objektanpassung"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:100
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:161
+msgid "Opacity"
+msgstr "Deckkraft"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:54
+msgid "Order By"
+msgstr "Sortieren nach"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:188
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:431
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:487
+msgid "Outside"
+msgstr "Außen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:109
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:281
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:50
+msgid "Padding"
+msgstr "Innenabstand"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:15
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:179
+msgid "Pagination Dots"
+msgstr "Navigationspunkte"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:38
+msgid "Play Icon"
+msgstr "Abspiel-Symbol"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:97
+#: includes/kodlo-elementor-gallery-media-renderer.php:85
+msgid "Play video"
+msgstr "Video abspielen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:137
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:427
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:483
+msgid "Position"
+msgstr "Position"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:57
+msgid "Preparing the first batch..."
+msgstr "Der erste Stapel wird vorbereitet..."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:48
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:73
+msgid "Prev Icon"
+msgstr "Vorheriges Symbol"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:99
+#: includes/kodlo-elementor-gallery-widget-template.php:79
+#: includes/kodlo-elementor-gallery-widget-template.php:153
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:195
+msgid "Processed %1$d of %2$d legacy records."
+msgstr "%1$d von %2$d Altdatensätzen wurden verarbeitet."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:64
+msgid "Product Variations"
+msgstr "Produktvarianten"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:98
+msgid "Product video player"
+msgstr "Produkt-Videoplayer"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:59
+msgid "Random"
+msgstr "Zufällig"
+
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:106
+msgid "Remove all"
+msgstr "Alle entfernen"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:36
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:80
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:126
+msgid "Retry processing"
+msgstr "Verarbeitung erneut versuchen"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:132
+msgid "Reveal Duration"
+msgstr "Einblenddauer"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:84
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:96
+msgid "Sale Flash"
+msgstr "Angebotsschild"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:94
+msgid "Sale Flash URL"
+msgstr "Angebotsschild-URL"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:167
+msgid "Screen Edge"
+msgstr "Bildschirmrand"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:35
+msgid "Select images for Variation Gallery"
+msgstr "Bilder für Variationsgalerie auswählen"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:66
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:76
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:86
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:17
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:39
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:64
+#: includes/elementor/controls/content/kodlo-elementor-gallery-thumbnails-settings.php:17
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:16
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:25
+msgid "Show"
+msgstr "Anzeigen"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-thumbnails-settings.php:15
+msgid "Show Thumbnails"
+msgstr "Thumbnails anzeigen"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:14
+msgid "Show Videos"
+msgstr "Videos anzeigen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:125
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:261
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:225
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:296
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:172
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:96
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:284
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:338
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:387
+msgid "Solid"
+msgstr "Durchgehend"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:86
+msgid "Spacing"
+msgstr "Abstand"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:52
+msgid "Span the selected image across all columns if the image count is not a multiple of columns."
+msgstr "Strecken Sie das ausgewählte Bild über alle Spalten, wenn die Anzahl der Bilder kein Vielfaches der Spalten ist."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:32
+msgid "Start"
+msgstr "Start"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:79
+msgid "States Style"
+msgstr "Zustandsstile"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:50
+msgid "Stretch First Image"
+msgstr "Erstes Bild strecken"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:49
+msgid "Stretch Last Image"
+msgstr "Letztes Bild strecken"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:177
+msgid "Stretched Image Style"
+msgstr "Stil des gestreckten Bildes"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:104
+msgid "Swipe Edge Bleed"
+msgstr "Randüberlauf beim Wischen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:50
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:205
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:278
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:116
+msgid "The original legacy metadata is still stored. Keeping it is the safest default. If you choose deletion, Kodlo removes only supported legacy records that have a corresponding Kodlo value; skipped or unmigrated records remain untouched."
+msgstr "Die ursprünglichen Altdaten sind weiterhin gespeichert. Sie zu behalten ist die sicherste Standardeinstellung. Wenn Sie die Löschung wählen, entfernt Kodlo nur unterstützte Altdatensätze mit einem entsprechenden Kodlo-Wert; übersprungene oder nicht migrierte Datensätze bleiben unverändert."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:166
+msgid "The process could not prepare its progress state. Check the server logs, then retry."
+msgstr "Der Fortschrittsstatus konnte nicht vorbereitet werden. Prüfen Sie die Serverprotokolle und versuchen Sie es erneut."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:125
+msgid "The process paused because a batch could not be completed. Check the server logs, then retry."
+msgstr "Der Vorgang wurde pausiert, weil ein Stapel nicht abgeschlossen werden konnte. Prüfen Sie die Serverprotokolle und versuchen Sie es erneut."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-actions.php:39
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-actions.php:48
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:149
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:160
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:183
+msgid "This migration request is no longer valid. Reload the page and try again."
+msgstr "Diese Migrationsanfrage ist nicht mehr gültig. Laden Sie die Seite neu und versuchen Sie es erneut."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:143
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:102
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:61
+msgid "Thumbnail Border Radius"
+msgstr "Thumbnail-Rahmenradius"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:49
+msgid "Thumbnail Width"
+msgstr "Thumbnail-Breite"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-navigation-options.php:62
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:473
+msgid "Thumbnails Arrows"
+msgstr "Thumbnail-Pfeile"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-thumbnails-settings.php:25
+msgid "Thumbnails Per View"
+msgstr "Thumbnails pro Ansicht"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:249
+msgid "Thumbnails outside the visible row load after the page has loaded or on the first interaction with the gallery, so they do not compete with the first image. When the desktop view is off, mobile slides after the priority images are deferred as well. Images of the desktop grid are never deferred."
+msgstr "Thumbnails außerhalb der sichtbaren Reihe werden nach dem Laden der Seite oder bei der ersten Interaktion mit der Galerie geladen, damit sie nicht mit dem ersten Bild konkurrieren. Ist die Desktop-Ansicht deaktiviert, werden auch mobile Slides nach den Prioritätsbildern verzögert. Bilder des Desktop-Rasters werden nie verzögert."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-thumbnails-settings.php:9
+msgid "Thumbnails settings"
+msgstr "Miniaturansicht-Einstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-thumbnails-style-settings.php:9
+msgid "Thumbnails style"
+msgstr "Miniaturansicht-Stil"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:172
+msgid "Top"
+msgstr "Oben"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:141
+msgid "Top Center"
+msgstr "Oben Mitte"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:140
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:262
+msgid "Top Left"
+msgstr "Oben Links"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:65
+msgid "Top Offset"
+msgstr "Versatz oben"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-general-style-settings.php:142
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:263
+msgid "Top Right"
+msgstr "Oben Rechts"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:122
+msgid "Transition Duration (s)"
+msgstr "Übergangsdauer (s)"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:53
+msgid "Use 0 or leave empty to show all images in the mobile gallery."
+msgstr "Verwenden Sie 0 oder lassen Sie das Feld leer, um alle Bilder in der mobilen Galerie anzuzeigen."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:65
+msgid "Use 0 or leave empty to show all images."
+msgstr "Verwenden Sie 0 oder lassen Sie es leer, um alle Bilder anzuzeigen."
+
+#: includes/admin/kodlo-elementor-gallery-variation-gallery.php:64
+msgid "Variation Image Gallery"
+msgstr "Variations-Bildergalerie"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:453
+#: includes/elementor/controls/style/kodlo-elementor-gallery-navigation-style.php:515
+msgid "Vertical Position"
+msgstr "Vertikale Position"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:23
+msgid "Video Icon on Thumbnails"
+msgstr "Videosymbol auf Thumbnails"
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:80
+#: includes/admin/kodlo-elementor-gallery-attachment-fields.php:32
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:9
+msgid "Video settings"
+msgstr "Video-Einstellungen"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-video-style-settings.php:9
+msgid "Video style"
+msgstr "Video-Stil"
+
+#: includes/admin/kodlo-elementor-gallery-plugin-row.php:35
+msgid "View details"
+msgstr "Details anzeigen"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:104
+#: includes/kodlo-elementor-gallery-widget-template.php:173
+msgid "View image %d"
+msgstr "Bild %d anzeigen"
+
+#: includes/elementor/kodlo-elementor-gallery-frontend-assets.php:106
+#: includes/kodlo-elementor-gallery-widget-template.php:170
+msgid "View video %d"
+msgstr "Video %d anzeigen"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-actions.php:30
+msgid "WooGallery compatibility is disabled, so this migration action cannot run."
+msgstr "Die WooGallery-Kompatibilität ist deaktiviert, daher kann diese Migrationsaktion nicht ausgeführt werden."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:115
+msgid "WooGallery metadata migration is complete."
+msgstr "Die Migration der WooGallery-Metadaten ist abgeschlossen."
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-notices.php:95
+msgid "Would you like to copy this data into Kodlo Product Gallery? After confirmation, migration starts here immediately in safe 50-record batches and never removes the original WooGallery metadata automatically."
+msgstr "Möchten Sie diese Daten in Kodlo Product Gallery kopieren? Nach der Bestätigung startet die Migration hier sofort in sicheren Stapeln mit jeweils 50 Datensätzen und entfernt die ursprünglichen WooGallery-Metadaten niemals automatisch."
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-desktop-view-settings.php:16
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:47
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:106
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:203
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:251
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:16
+#: includes/elementor/controls/content/kodlo-elementor-gallery-mobile-view-options.php:39
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:60
+#: includes/elementor/controls/content/kodlo-elementor-gallery-video-options.php:73
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-actions.php:27
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-progress.php:139
+msgid "You are not allowed to manage this migration."
+msgstr "Sie sind nicht berechtigt, diese Migration zu verwalten."
+
+#: includes/admin/kodlo-elementor-gallery-admin-assets.php:81
+#: includes/admin/kodlo-elementor-gallery-attachment-fields.php:35
+msgid "YouTube, Vimeo, or direct MP4 URL. This image is used as the video thumbnail and poster."
+msgstr "YouTube, Vimeo oder direkte MP4-URL. Dieses Bild wird als Video-Thumbnail und Poster verwendet."
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:67
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:103
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:85
+#: includes/elementor/controls/style/kodlo-elementor-gallery-desktop-style-settings.php:97
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:123
+#: includes/elementor/controls/style/kodlo-elementor-gallery-mobile-style-settings.php:144
+msgid "Zoom Factor"
+msgstr "Zoomfaktor"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-definitions.php:19
+msgid "attachment video URLs (wcgs_video)"
+msgstr "Video-URLs von Anhängen (wcgs_video)"
+
+#: includes/elementor/controls/content/kodlo-elementor-gallery-general-settings.php:96
+msgid "https://example.com"
+msgstr "https://example.com"
+
+#: includes/bootstrap/kodlo-elementor-gallery-requirements.php:67
+msgid "unknown"
+msgstr "unbekannt"
+
+#: includes/admin/migration/kodlo-elementor-gallery-woogallery-definitions.php:25
+msgid "variation gallery images (woo_gallery_slider)"
+msgstr "Bilder der Variationsgalerie (woo_gallery_slider)"

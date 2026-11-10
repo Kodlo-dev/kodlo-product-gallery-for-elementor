@@ -1,0 +1,598 @@
+/*
+ * Defines frontend presentation for Kodlo Product Gallery for Elementor.
+ * Defines main gallery wrapper, desktop grid styles, video play button layout, and mobile Swiper slider structure.
+ */
+
+/* Widget shell and shared design tokens. */
+.elementor-widget-kodlo-product-gallery {
+	width: 100%;
+}
+
+.kodlo-gallery-wrapper {
+	position: relative;
+	width: 100%;
+	--kodlo-object-fit: cover;
+	--kodlo-aspect-ratio: 5 / 6;
+	--kodlo-mobile-object-fit: cover;
+	--kodlo-mobile-aspect-ratio: 5 / 6;
+	--kodlo-thumb-object-fit: cover;
+	--kodlo-thumb-aspect-ratio: 1 / 1;
+	--kodlo-columns: 2;
+	--kodlo-thumb-size: 80px;
+	--kodlo-thumbs-per-view: 4;
+	--kodlo-last-image-object-fit: cover;
+	--kodlo-last-image-aspect-ratio: 16 / 9;
+	--kodlo-stretched-image: no;
+	--kodlo-main-nav-position: overlay;
+	--kodlo-thumbs-nav-position: overlay;
+	--kodlo-dot-size: 8px;
+	--kodlo-dot-margin: 4px;
+	--kodlo-dot-color: rgba(0, 0, 0, 0.4);
+	--kodlo-dot-hover-color: #000;
+	--kodlo-dot-active-color: #000;
+	--kodlo-dot-border-color: transparent;
+	--kodlo-dot-hover-border-color: transparent;
+	--kodlo-dot-active-border-color: transparent;
+	--kodlo-dot-position: relative;
+	--kodlo-dot-top-spacing: 8px;
+	--kodlo-dot-bottom-spacing: 8px;
+	--kodlo-thumbnail-video-icon-size: 20px;
+	--kodlo-thumbnail-video-icon-color: #fff;
+	--kodlo-thumbnail-video-icon-background: transparent;
+	--kodlo-image-background: #ffffff;
+	--kodlo-mobile-image-background: #ffffff;
+	--kodlo-thumb-background: #ffffff;
+	--kodlo-thumb-active-background: #ffffff;
+}
+
+/* Desktop grid and shared media structure. */
+.kodlo-gallery-main-wrapper {
+	width: 100%;
+	grid-template-columns: repeat(var(--kodlo-columns), minmax(0, 1fr));
+}
+
+.kodlo-gallery-entry {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.kodlo-gallery-caption {
+	display: block;
+	width: 100%;
+	margin: 8px 0 0;
+	text-align: center;
+}
+
+.kodlo-media-item {
+	position: relative;
+	display: block;
+	width: 100%;
+	aspect-ratio: var(--kodlo-aspect-ratio);
+	overflow: hidden;
+	background-color: var(--kodlo-image-background, #ffffff) !important;
+	box-sizing: border-box;
+}
+
+.kodlo-media-item img.kodlo-main-image {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: var(--kodlo-object-fit);
+	transition: transform 0.3s ease;
+}
+
+.kodlo-media-link {
+	position: absolute;
+	inset: 0;
+	display: block;
+	z-index: 1;
+}
+
+/* Sale badge layout and placement presets. */
+.kodlo-sale-flash {
+	position: absolute;
+	z-index: 30;
+	display: block;
+	text-decoration: none;
+}
+
+.kodlo-gallery-wrapper .kodlo-sale-flash .onsale {
+	position: static;
+	display: block;
+	float: none;
+	min-width: 0;
+	min-height: 0;
+	margin: 0;
+	line-height: normal;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 3px;
+	transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, border-radius 0.2s ease;
+}
+
+.kodlo-sale-position-top_left { top: 0.5rem; left: 0.5rem; }
+.kodlo-sale-position-top_center { top: 0.5rem; left: 50%; transform: translateX(-50%); }
+.kodlo-sale-position-top_right { top: 0.5rem; right: 0.5rem; }
+.kodlo-sale-position-center_left { top: 50%; left: 0.5rem; transform: translateY(-50%); }
+.kodlo-sale-position-center_center { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.kodlo-sale-position-center_right { top: 50%; right: 0.5rem; transform: translateY(-50%); }
+.kodlo-sale-position-bottom_left { bottom: 0.5rem; left: 0.5rem; }
+.kodlo-sale-position-bottom_center { bottom: 0.5rem; left: 50%; transform: translateX(-50%); }
+.kodlo-sale-position-bottom_right { right: 0.5rem; bottom: 0.5rem; }
+.kodlo-sale-position-custom { top: 0.5rem; left: 0.5rem; }
+
+/*
+ * Desktop and mobile image fit, background, corners, borders, zoom and magnifier values are applied per device by the
+ * widget's breakpoint styles (kodlo-elementor-gallery-widget-dynamic-styles.php): both views share the same slides.
+ */
+
+/* Video controls and embedded player states. */
+.kodlo-video-play-btn-wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.kodlo-video-play-btn {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 0.2s ease;
+	pointer-events: all;
+	padding: 0;
+	border: 0;
+	background: transparent !important;
+}
+
+.kodlo-video-play-btn:hover {
+	transform: scale(1.1);
+}
+
+.kodlo-gallery-wrapper .kodlo-video-play-btn,
+.kodlo-gallery-wrapper .kodlo-video-play-btn:hover,
+.kodlo-gallery-wrapper .kodlo-video-play-btn:focus,
+.kodlo-gallery-wrapper .kodlo-video-play-btn:active {
+	background: transparent !important;
+}
+
+.kodlo-video-play-btn svg,
+.kodlo-video-play-btn i {
+	display: block;
+	width: 60px;
+	height: 60px;
+	font-size: 60px;
+	line-height: 1;
+	color: #fff;
+}
+
+.kodlo-video-container {
+	position: absolute;
+	inset: 0;
+	display: none;
+	background: transparent;
+	z-index: 10;
+}
+
+.kodlo-video-container.is-loading,
+.kodlo-video-container.is-ready {
+	display: block;
+}
+
+.kodlo-video-container iframe,
+.kodlo-video-container video {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	object-fit: cover;
+	opacity: 1;
+	transition: opacity 0.2s ease;
+}
+
+.kodlo-video-container.is-loading {
+	pointer-events: none;
+}
+
+.kodlo-video-container.is-loading iframe,
+.kodlo-video-container.is-loading video {
+	opacity: 0;
+}
+
+/* Mobile slider pagination and sliding dot window. */
+.kodlo-mobile-slider {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination {
+	position: var(--kodlo-dot-position, relative) !important;
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	align-items: center;
+	justify-content: flex-start;
+	overflow: hidden;
+	margin-top: var(--kodlo-dot-top-spacing, 8px) !important;
+	margin-bottom: var(--kodlo-dot-bottom-spacing, 8px) !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	bottom: auto !important;
+	left: 0;
+	--kodlo-pagination-fade: 8px;
+	padding: 0 !important;
+	width: var(--kodlo-pagination-window-width, 100%) !important;
+	max-width: 100%;
+	min-height: max(24px, var(--kodlo-dot-size));
+	box-sizing: border-box;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination.kodlo-pagination-limited {
+	mask-image: linear-gradient(to right, transparent, #000 var(--kodlo-pagination-fade), #000 calc(100% - var(--kodlo-pagination-fade)), transparent);
+	-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--kodlo-pagination-fade), #000 calc(100% - var(--kodlo-pagination-fade)), transparent);
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination.kodlo-pagination-limited.kodlo-pagination-at-start {
+	mask-image: linear-gradient(to right, #000, #000 calc(100% - var(--kodlo-pagination-fade)), transparent);
+	-webkit-mask-image: linear-gradient(to right, #000, #000 calc(100% - var(--kodlo-pagination-fade)), transparent);
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination.kodlo-pagination-limited.kodlo-pagination-at-end {
+	mask-image: linear-gradient(to right, transparent, #000 var(--kodlo-pagination-fade), #000);
+	-webkit-mask-image: linear-gradient(to right, transparent, #000 var(--kodlo-pagination-fade), #000);
+}
+
+.kodlo-gallery-wrapper[data-dot-position="overlay"] .kodlo-mobile-slider .swiper-pagination {
+	position: absolute !important;
+	top: auto !important;
+	bottom: var(--kodlo-dot-bottom-spacing, 8px) !important;
+	left: 50% !important;
+	margin: 0 !important;
+	transform: translateX(-50%);
+	z-index: 20;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet {
+	--kodlo-dot-hit-offset: max(0px, calc((24px - var(--kodlo-dot-size)) / 2));
+	position: relative;
+	width: var(--kodlo-dot-size) !important;
+	height: var(--kodlo-dot-size) !important;
+	background: var(--kodlo-dot-color) !important;
+	border-color: var(--kodlo-dot-border-color) !important;
+	opacity: 1;
+	margin: 0 max(var(--kodlo-dot-margin), var(--kodlo-dot-hit-offset)) !important;
+	flex: 0 0 auto;
+	transform: translateX(var(--kodlo-pagination-offset, 0));
+	transition: background 0.2s, border-color 0.2s, transform 0.28s ease;
+	box-sizing: border-box;
+}
+
+/* Extends the clickable area while preserving the configured visual dot size. */
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet::after {
+	position: absolute;
+	inset: calc(-1 * var(--kodlo-dot-hit-offset));
+	content: "";
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 3px;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet.kodlo-pagination-bullet-hidden {
+	pointer-events: none;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover {
+	background: var(--kodlo-dot-hover-color) !important;
+	border-color: var(--kodlo-dot-hover-border-color) !important;
+}
+
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet.swiper-pagination-bullet-active:hover {
+	background: var(--kodlo-dot-active-color) !important;
+	border-color: var(--kodlo-dot-active-border-color) !important;
+}
+
+/* Reserve pagination space before Swiper injects bullets to prevent layout shift. */
+.kodlo-mobile-slider:not(.swiper-initialized) .swiper-pagination {
+	min-height: var(--kodlo-dot-size, 8px);
+}
+
+/* Force each slide to full width before Swiper initializes so only one slide is
+   visible behind overflow:hidden and no sliver of adjacent slides peeks through.
+   We add margin-right: 10px to match Swiper's spaceBetween setting. */
+.kodlo-mobile-slider:not(.swiper-initialized) .swiper-slide {
+	min-width: 100%;
+	flex-shrink: 0;
+	margin-right: 10px;
+}
+
+/* Thumbnail strip and stable pre-Swiper layout. */
+.kodlo-thumbs-slider {
+	width: 100%;
+	padding: 4px 0;
+}
+
+.kodlo-gallery-wrapper:not([data-thumbs-per-view="auto"]) .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-wrapper {
+	display: grid;
+	gap: var(--kodlo-thumb-gap, 10px);
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="2"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-wrapper {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="2"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-slide:nth-child(n + 3) {
+	display: none;
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="3"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-wrapper {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="3"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-slide:nth-child(n + 4) {
+	display: none;
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="4"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-wrapper {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="4"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-slide:nth-child(n + 5) {
+	display: none;
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="5"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-wrapper {
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="5"] .kodlo-thumbs-slider:not(.swiper-initialized) .swiper-slide:nth-child(n + 6) {
+	display: none;
+}
+
+.kodlo-thumbs-slider .swiper-slide {
+	aspect-ratio: var(--kodlo-thumb-aspect-ratio);
+	cursor: pointer;
+	border-radius: 0;
+	overflow: hidden;
+	transition: opacity 0.2s, border-color 0.2s;
+	flex-shrink: 0;
+	background-color: var(--kodlo-thumb-background, #ffffff);
+}
+
+.kodlo-thumbs-slider .swiper-slide-thumb-active {
+	background-color: var(--kodlo-thumb-active-background, #ffffff) !important;
+}
+
+.kodlo-gallery-wrapper[data-thumbs-per-view="auto"] .kodlo-thumbs-slider .swiper-slide {
+	width: var(--kodlo-thumb-size) !important;
+	height: auto !important;
+}
+
+.kodlo-thumbs-slider .swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: var(--kodlo-thumb-object-fit);
+	display: block;
+}
+
+.kodlo-thumb-button {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: 0;
+	background: transparent !important;
+	color: inherit !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+.kodlo-thumb-button:hover,
+.kodlo-thumb-button:focus {
+	background: transparent !important;
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.kodlo-thumbnail-video-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(var(--kodlo-thumbnail-video-icon-size) + 12px);
+	height: calc(var(--kodlo-thumbnail-video-icon-size) + 12px);
+	color: var(--kodlo-thumbnail-video-icon-color);
+	background: var(--kodlo-thumbnail-video-icon-background);
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+}
+
+.kodlo-thumbnail-video-icon svg,
+.kodlo-thumbnail-video-icon i {
+	width: var(--kodlo-thumbnail-video-icon-size);
+	height: var(--kodlo-thumbnail-video-icon-size);
+	color: inherit;
+	fill: currentColor;
+	font-size: var(--kodlo-thumbnail-video-icon-size);
+}
+
+/* Slider wrappers and navigation controls. */
+.kodlo-main-slider-wrap,
+.kodlo-thumbs-slider-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: var(--kodlo-nav-offset, 8px);
+	--kodlo-nav-offset: 8px;
+	--kodlo-nav-top: 50%;
+}
+
+.kodlo-main-slider-wrap .kodlo-mobile-slider,
+.kodlo-thumbs-slider-wrap .kodlo-thumbs-slider {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.kodlo-main-slider-wrap.kodlo-nav-overlay .kodlo-mobile-slider,
+.kodlo-thumbs-slider-wrap.kodlo-nav-overlay .kodlo-thumbs-slider {
+	flex: 1 1 100%;
+}
+
+.kodlo-main-slider-wrap.kodlo-nav-overlay,
+.kodlo-thumbs-slider-wrap.kodlo-nav-overlay {
+	gap: 0;
+}
+
+.kodlo-main-slider-wrap.kodlo-nav-overlay .kodlo-nav-btn,
+.kodlo-thumbs-slider-wrap.kodlo-nav-overlay .kodlo-nav-btn {
+	position: absolute;
+	top: var(--kodlo-nav-top, 50%);
+	transform: translateY(-50%);
+	z-index: 10;
+}
+
+.kodlo-main-slider-wrap.kodlo-nav-overlay .kodlo-nav-prev,
+.kodlo-thumbs-slider-wrap.kodlo-nav-overlay .kodlo-nav-prev {
+	left: var(--kodlo-nav-offset, 8px);
+}
+
+.kodlo-main-slider-wrap.kodlo-nav-overlay .kodlo-nav-next,
+.kodlo-thumbs-slider-wrap.kodlo-nav-overlay .kodlo-nav-next {
+	right: var(--kodlo-nav-offset, 8px);
+}
+
+.kodlo-nav-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 8px 10px;
+	transition: background 0.2s, color 0.2s;
+	flex-shrink: 0;
+	line-height: 1;
+}
+
+.kodlo-nav-btn:hover {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+/* Keyboard focus and disabled navigation states. */
+.kodlo-video-play-btn:focus-visible,
+.kodlo-thumb-button:focus-visible,
+.kodlo-nav-btn:focus-visible,
+.kodlo-sale-flash:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
+
+.kodlo-nav-btn.swiper-button-disabled {
+	cursor: not-allowed;
+	opacity: 0.35;
+	pointer-events: none;
+}
+
+.kodlo-nav-btn i,
+.kodlo-nav-btn svg {
+	display: block;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	line-height: 1;
+}
+
+/* Mobile slide overflow. */
+.kodlo-mobile-slider .swiper-slide {
+	overflow: visible;
+}
+
+/* Elementor's Swiper styles set line-height 0 on slide figures; captions keep the inherited line height. */
+.kodlo-gallery-wrapper .swiper .swiper-slide figure.kodlo-gallery-entry {
+	line-height: inherit;
+}
+
+/* Reduced-motion overrides for animated gallery elements. */
+@media (prefers-reduced-motion: reduce) {
+	.kodlo-gallery-wrapper .swiper-wrapper,
+	.kodlo-media-item img.kodlo-main-image,
+	.kodlo-sale-flash .onsale,
+	.kodlo-video-play-btn,
+	.kodlo-video-container iframe,
+	.kodlo-video-container video,
+	.kodlo-thumbs-slider .swiper-slide,
+	.kodlo-gallery-wrapper .kodlo-mobile-slider .swiper-pagination-bullet,
+	.kodlo-nav-btn {
+		transition: none !important;
+	}
+}
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-gallery-main-wrapper {
+	display: grid !important;
+}
+
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-gallery-main-slide {
+	display: block !important;
+	width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+}
+
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-main-slider-wrap .kodlo-nav-btn,
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-main-slider-wrap .swiper-pagination,
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-thumbs-slider-wrap,
+.kodlo-gallery-wrapper[data-desktop-view-enabled="yes"][data-mobile-view-enabled="no"] .kodlo-hide-desktop {
+	display: none !important;
+}
+
+.kodlo-gallery-wrapper[data-desktop-view-enabled="no"][data-mobile-view-enabled="yes"] .kodlo-gallery-main-wrapper {
+	display: flex !important;
+	gap: 0 !important;
+}
+
+.kodlo-gallery-wrapper[data-desktop-view-enabled="no"][data-mobile-view-enabled="yes"] .kodlo-main-slider-wrap .kodlo-nav-btn,
+.kodlo-gallery-wrapper[data-desktop-view-enabled="no"][data-mobile-view-enabled="yes"] .kodlo-thumbs-slider-wrap {
+	display: flex !important;
+}
+
+.kodlo-gallery-wrapper[data-desktop-view-enabled="no"][data-mobile-view-enabled="yes"] .kodlo-hide-mobile {
+	display: none !important;
+}
+
+/* WooCommerce product images printed when the gallery cannot render. */
+.kodlo-gallery-fallback {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.kodlo-gallery-fallback > * {
+	flex: 0 0 calc(25% - 6px);
+}
+
+.kodlo-gallery-fallback > :first-child {
+	flex-basis: 100%;
+}
+
+.kodlo-gallery-fallback img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
